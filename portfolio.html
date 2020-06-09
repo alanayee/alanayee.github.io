@@ -3,37 +3,49 @@
     <meta charset="utf-8">
     <title>Alana's Portfolio</title>
     <style>
-    .monospace {
-        font-family: "Lucida Console", Monaco, monospace	
-;
-    }
     h1{
         text-align: center;
         text-transform: uppercase;
         color:black;
         background-color:lightsteelblue;
+        font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; 	
      }
-     .navigation{
-         overflow: hidden;
-         background-color:rgb(229, 176, 231);
-         font-size: 20px;
-         padding: 14px;
-     }
-     .navigation a{
+     .navigation ul{   
+        list-style-type: none;  
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color:lightblue;
+        font-family: Tahoma, Geneva, sans-serif	;
+    }  
+    .navigation li{
+         float: left; 
+    }
+    .navigation li a {   
+        display: block;
+        color:black;
+        text-align: center;
         padding: 14px;
-     }
+        text-decoration: none;
+    }
+    a:hover{
+        background-color: cadetblue;
+    }
+
     </style>
 </head>
 <body>
-    <h1 class = "monospace"> HomePage </h1>
-    <div class = "navigation">
-        <a href="index.html">Home Page</a>
-        <a href="aboutme.html">About me</a>
-        <a href="test.html">The Perfect Trip</a>
-        <a href="food.html">Fun Food</a> 
-        <a href="paintings.html">Paintings</a> 
-        <a href="portfolio.html">Portfolio</a>
-    </div>
+    <h1> Portfolio </h1>
+    <di class = "navigation">
+        <ul>
+            <li><a href="index.html">Home Page</a></li>
+            <li><a href="aboutme.html">About Me</a></li>
+            <li><a href="food.html">Fun Food</a> </li>
+            <li><a href="paintings.html">Paintings</a> </li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+        </ul>
+        <br>
+        </div>
     <h2>Restaurant Java Program</h2>
     <p>This program it asks what the user would like to order and calculates the final price including tip. </p>
     <h2>Array List Code <br> <img src = "images/restaurantArrayList.jpg" alt = "Array List Code" width = "600"></h2>
@@ -43,5 +55,11 @@
 <!-- To Do List: add calculator programs(python and java) and provide a small description of each
                 add Taqueria JavaScript food delivery program
                  -->
+    <h2>Java Calculator Code <br> <img src = "images/Screen Shot 2020-06-08 at 4.46.15 PM.png" alt = "Java Calculator Code" width = "600"></h2>
+    <p> This section of code displays using the Scanner library to take in user input and determine what operation to use and what numbers calculate. 
+    </br> If you want to see the rest of my code, click <a href="https://github.com/alanayee/JavaCalculator">here. <a></p>
+
+    
+    
 </body>
 </html>

@@ -16,29 +16,52 @@
         text-transform: uppercase;
         color:black;
         background-color:lightsteelblue;
+        font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; 
+
      }
-     .navigation{
-         overflow: hidden;
-         background-color:rgb(229, 176, 231);
-         font-size: 20px;
-         padding: 14px;
-     }
-     .navigation a{
+     .navigation ul{   
+        list-style-type: none;  
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color:lightblue;
+    }  
+    .navigation li{
+         float: left; 
+         /* border-left: 110px solid lightblue ; */
+    }
+    .navigation li a {   
+        display: block;
+        color:black;
+        text-align: center;
         padding: 14px;
-     }
+        text-decoration: none;
+        font-family: Tahoma, Geneva, sans-serif	;
+
+    }
+    a:hover{
+        background-color: cadetblue;
+    }
+    p{
+        font-family: Verdana, Geneva, sans-serif;	
+    }
+
     </style>
 </head>
 <body>
-    <h1 class = "monospace"> HomePage </h1>
+    <h1> HomePage </h1>
     <div class = "navigation">
-        <a href="index.html">Home Page</a>
-        <a href="aboutme.html">About me</a>
-        <a href="test.html">The Perfect Trip</a>
-        <a href="food.html">Fun Food</a> 
-        <a href="paintings.html">Paintings</a> 
-        <a href="portfolio.html">Portfolio</a>
+    <ul>
+        <li><a href="index.html">Home Page</a></li>
+        <li><a href="aboutme.html">About Me</a></li>
+        <li><a href="food.html">Fun Food</a> </li>
+        <li><a href="paintings.html">Paintings</a> </li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+    </ul>
+    <br>
     </div>
-    <p class = "monospace">I'm an awesome person</p>
-    <a href="Resume1.pdf">Resume</a>
+    <br>
+    <p>I'm Alana Yee, and this is my website that includes information about me and my interests!</p>
+    <p> If you would like to see my resume, click <a href="Resume1.pdf">here</a></p>
 </body>
 </html>

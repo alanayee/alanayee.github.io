@@ -5,65 +5,102 @@
         <meta charset="utf-8">
     </head>
     <style>
-    .monospace{
-        font-family: "Lucida Console", Monaco, monospace;
-    }
     h1{
-        background-color: lightsteelblue;
-        font-size: 40px;
+        text-align: center;
+        text-transform: uppercase;
+        color:black;
+        background-color:lightsteelblue;
+        font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; 
+
+     }
+     .navigation ul{   
+        list-style-type: none;  
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color:lightblue;
+    }
+    .navigation li{
+         float: left; 
+    }
+    .navigation li a {   
+        display: block;
+        color:black;
+        text-align: center;
+        padding: 14px;
+        text-decoration: none;
+        font-family: Tahoma, Geneva, sans-serif	;
 
     }
-    .navigation{
-         overflow: hidden;
-         background-color:rgb(229, 176, 231);
-         font-size: 20px;
-         padding: 14px;
-     }
-     .navigation a{
-        padding: 14px;
-     }
-     .coffee-info{
+    a:hover{
+        background-color: cadetblue;
+    }
+    .brownie-info{
+        font-family: Verdana, Geneva, sans-serif;
+    }
+    .coffee-info{
          position: absolute;
          left: 12%;
          float: right;
+         font-family: Verdana, Geneva, sans-serif;
      }
-     .coffee-pic{
+    .coffee-pic{
          position: absolute;
          left: 30%
          float: left;
-     }
+    }
+    .Ingerdients ul{
+        list-style-type: circle;  
+        color:black;
+        overflow:unset;
+
+    }
+    .Ingredients li{
+        float: none;
+        background-color:white;
+    }
+    p{
+        font-family: Verdana, Geneva, sans-serif;	
+    }
+
 
     </style>
     <body>
-        <h1 class = "monospace">Food</h1>
+        <h1>Food</h1>
         <div class = "navigation">
-            <a href="index.html">Home Page</a>
-            <a href="aboutme.html">About me</a>
-            <a href="test.html">The Perfect Trip</a>
-            <a href="food.html">Fun Food</a>  
-            <a href="paintings.html">Paintings</a> 
-            <a href="portfolio.html">Portfolio</a>
-        </div>
-
+            <ul>
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="food.html">Fun Food</a> </li>
+                <li><a href="paintings.html">Paintings</a> </li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+            </ul>
+            <br>
+            </div>
         <p> Why do I love making food so much? It's because I get to eat it in the end! The process of cooking is so fun because I can make anything I want, whether it be a bowl of soup or sweet chocolate chip cookies. </p>
+        <div class = "brownie-info">
         <h2>Brownies <br> <img src = "images/browniespic.JPG" alt = "Image of Brownies" width = "200">
         </h2>
             Use this recipe to make delicious brownies! <br>
             <a href="https://www.allrecipes.com/recipe/10549/best-brownies/">Brownie Recipe</a>
         </p>
+        </div>
         <h2>Coffee </h2>
         <p class = "coffee-pic">
             <img src = "images/coffeepic.JPG" alt = "Image of Coffee" width = "100">
         </p>
         <div class = "coffee-info">
         <h3> Ingredients</h3>
+        <div class = "Ingredients">
         <ul>
             <li>2 tablespoons instant coffee </li>
             <li>2 tablespoons sugar</li>
             <li>2 tablespoons hot water</li>
             <li> 1 cup milk</li>
         </ul>
+        </div>
         <h3>Instructions </h3>
+        <div class = "Instructions">
         <ol>
             <li>Whip instant coffee, sugar, and water in a bowl until it is a creamy consistency</li>
             <li> Pour milk and ice into cup</li>
@@ -71,6 +108,7 @@
             <li> Mix and enjoy!</li>
 
         </ol>
+        </div>
         </div>
         <!-- <p>And eat food like...<img src = "https://www.kasandbox.org/programming-images/food/sushi.png" alt = "Image of Sushi" width = "100">
         </p> -->

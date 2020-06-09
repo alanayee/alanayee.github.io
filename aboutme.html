@@ -3,33 +3,54 @@
      <meta charset="utf-8">
      <title>About Alana</title>
      <style>
-    a:visited{color: black};
     h1{
-        background-color: lightsteelblue;
+        text-align: center;
+        text-transform: uppercase;
+        color:black;
+        background-color:lightsteelblue;
+        font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; 
+
+     }
+    .navigation ul{   
+        list-style-type: none;  
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color:lightblue;
+    }  
+    .navigation li{
+         float: left; 
     }
-    .navigation{
-         overflow: hidden;
-         background-color:rgb(229, 176, 231);
-         font-size: 20px;
-         padding: 14px;
-         /* color:black; */
-         font-family:sans-serif;
-     }
-     .navigation a{
+    .navigation li a {   
+        display: block;
+        color:black;
+        text-align: center;
         padding: 14px;
-     }
-        </style>
+        text-decoration: none;
+        font-family: Tahoma, Geneva, sans-serif	;
+
+    }
+    a:hover{
+        background-color: cadetblue;
+    }
+    p{
+        font-family: Verdana, Geneva, sans-serif;	
+    }
+
+    </style>
 </head>
 <body>
-    <h1 class = "monospace"> About Me</h1>
+    <h1> About Me</h1>
     <div class = "navigation">
-        <a href="index.html">Home Page</a>
-        <a href="aboutme.html">About me</a>
-        <a href="test.html">The Perfect Trip</a>
-        <a href="food.html">Fun Food</a>  
-        <a href="paintings.html">Paintings</a> 
-        <a href="portfolio.html">Portfolio</a>
+    <ul>
+        <li><a href="index.html">Home Page</a></li>
+        <li><a href="aboutme.html">About Me</a></li>
+        <li><a href="food.html">Fun Food</a> </li>
+        <li><a href="paintings.html">Paintings</a> </li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+    </ul>
+    <br>
     </div>
-    <p class = "monospace">My name is Alana! I have a dog and I'm currently learning how to code.</p>
+    <p>My name is Alana! I am a Sophomore in high school to Notre Dame High School in San Jose. I am interested in Computer Science and Healthcare. I am learning how to code in Python and Java. I am an incoming intern at the Stanford Anesthesiology Summer Institute. </p>
 </body>
 </html>

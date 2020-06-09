@@ -5,21 +5,35 @@
         <meta charset="utf-8">
     </head>
     <style>
-    .navigation{
-         overflow: hidden;
-         background-color:rgb(229, 176, 231);
-         font-size: 20px;
-         padding: 14px;
-     }
-    .navigation a{
-        padding: 14px;
-    }
-    #painting-header{
-        background-color: lightblue;
-        color: black;
-        padding: 20px;
+    h1{
         text-align: center;
-        font-family: "Lucida Console", Monaco, monospace;
+        text-transform: uppercase;
+        color:black;
+        background-color:lightsteelblue;
+        font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; 
+
+     }
+    .navigation ul{   
+        list-style-type: none;  
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color:lightblue;
+    }  
+    .navigation li{
+         float: left; 
+    }
+    .navigation li a {   
+        display: block;
+        color:black;
+        text-align: center;
+        padding: 14px;
+        text-decoration: none;
+        font-family: Tahoma, Geneva, sans-serif	;
+
+    }
+    a:hover{
+        background-color: cadetblue;
     }
     .painting-titles{
         background-color: rgb(201, 241, 245);
@@ -38,15 +52,17 @@
     }
     </style>
     <body>
-        <h1 id = "painting-header">My Paintings</h1>
+        <h1>My Paintings</h1>
         <div class = "navigation">
-            <a href="index.html">Home Page</a>
-            <a href="aboutme.html">About me</a>
-            <a href="test.html">The Perfect Trip</a>
-            <a href="food.html">Fun Food</a>  
-            <a href="paintings.html">Paintings</a> 
-            <a href="portfolio.html">Portfolio</a>
-        </div>
+            <ul>
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="food.html">Fun Food</a> </li>
+                <li><a href="paintings.html">Paintings</a> </li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+            </ul>
+            <br>
+            </div>
         <div class = "painting-content">
         <h2 class = "painting-titles"> Majestic Mountains</h2>
         <p>
